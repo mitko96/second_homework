@@ -12,7 +12,7 @@
 
   list_empty = fn
 	[] -> "true"
-	[_] -> "false"
+	_ -> "false"
   end
 
 
